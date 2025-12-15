@@ -22,24 +22,24 @@
 
             double result = 0;
 
-            if(operation == 1)
+            if (operation == 1)
             {
                 result = num1 + num2;
                 Console.WriteLine($"O resultado da adição é: {result}");
             }
-            else if(operation == 2)
+            else if (operation == 2)
             {
                 result = num1 - num2;
                 Console.WriteLine($"O resultado da subtração é: {result}");
             }
-            else if(operation == 3)
+            else if (operation == 3)
             {
                 result = num1 * num2;
                 Console.WriteLine($"O resultado da multiplicação é: {result}");
             }
-            else if(operation == 4)
+            else if (operation == 4)
             {
-                if(num2 != 0)
+                if (num2 != 0)
                 {
                     result = num1 / num2;
                     Console.WriteLine($"O resultado da divisão é: {result}");
@@ -53,5 +53,6 @@
             {
                 Console.WriteLine("Operação inválida. Por favor, selecione uma operação válida.");
             }
+        }
     }
 }
